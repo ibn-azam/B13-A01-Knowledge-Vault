@@ -220,5 +220,39 @@
     border-radius: 4px;
     margin-bottom: 16px;
 }
+#footer{
+    width: 100%;
+    background-color: #001931;
+    padding: 120px 0;
+    margin-top: 60px;
+}
+#footer .footer-logo{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1360px;
+    max-height: 64px;
+    margin: 0 auto 80px;
+    color: #FAFAFA;
+}
+#footer .footer-logo i{
+    background-color: #FAFAFA;
+    border-radius: 100%;
+    padding: 5px;
+    color: #001931;
+    margin-top: 16px;
+    margin-right: 10px;
+}
 
+#footer .footer-copyright{
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FAFAFA;
+}
+#footer .footer-icon{
+    margin-right: 60px;
+}
+.footer-copyright hr{
+    margin-bottom: 30px;
+}
 
