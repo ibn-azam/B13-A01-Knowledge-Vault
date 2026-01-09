@@ -1,6 +1,7 @@
 *{
     margin:0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 .font-open-sans{
@@ -42,6 +43,11 @@
     border: none;
     padding: 13px 16px;
     border-radius: 4px;
+    cursor: pointer;
+}
+#header .btn:hover{
+    background-color: #044820;
+    box-shadow: 2px 2px 5px #044820;
 }
 /* This is the banner section */
 #banner-section .banner img{
@@ -66,6 +72,10 @@
     align-items: center;
     margin-bottom: 16px;
 }
+.banner-text .btn2:hover{
+    background-color: #044820;
+    box-shadow: 2px 2px 5px #044820;
+}
 #banner-section .banner-text h1{
     font-size: 60px;
     font-weight: bolder;
@@ -89,6 +99,11 @@
     border: none;
     padding: 13px 16px;
     border-radius: 4px;
+    cursor: pointer;
+}
+#banner-section .btn3:hover{
+    background-color: #044820;
+    box-shadow: 2px 2px 5px #044820;
 }
 .btn4{
     font-size: 16px;
@@ -98,7 +113,12 @@
     padding: 13px 16px;
     border-radius: 4px;
     color: #ffffff;
-    
+    cursor: pointer; 
+}
+#banner-section .btn4:hover{
+    background-color: #044820;
+    border: none;
+    box-shadow: 2px 2px 5px #044820;
 }
 /* This is the note section  */
 #note-section{
@@ -219,6 +239,11 @@
     padding: 13px 16px;
     border-radius: 4px;
     margin-bottom: 16px;
+    cursor: pointer;
+}
+#early-access .btn5:hover{
+    background-color: #044820;
+    box-shadow: 2px 2px 5px #044820;
 }
 #footer{
     width: 100%;
